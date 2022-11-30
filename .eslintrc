@@ -1,0 +1,11 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	// https://github.com/dustinspecker/awesome-eslint
+	"plugins": ["@typescript-eslint"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
+	]
+}
